@@ -9,7 +9,7 @@ namespace RestaurantRaterMVC.Models
 {
     public class Restaurant
     {
-        [Key]
+        
         public int RestaurantId { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
